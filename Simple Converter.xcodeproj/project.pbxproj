@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10083D4E1805645A00836152 /* background_bar_inner.png in Resources */ = {isa = PBXBuildFile; fileRef = 10083D4C1805645A00836152 /* background_bar_inner.png */; };
+		10083D4F1805645A00836152 /* background_bar_outter.png in Resources */ = {isa = PBXBuildFile; fileRef = 10083D4D1805645A00836152 /* background_bar_outter.png */; };
+		104CC97D180572EE00770F36 /* digit_button_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 104CC97C180572ED00770F36 /* digit_button_background.png */; };
+		10A8939C1803C14E001CEB9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A8939B1803C14E001CEB9B /* UIKit.framework */; };
+		10A8939E1803C14E001CEB9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A8939D1803C14E001CEB9B /* Foundation.framework */; };
+		10A893A01803C14E001CEB9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A8939F1803C14E001CEB9B /* CoreGraphics.framework */; };
+		10A893A61803C14E001CEB9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10A893A41803C14E001CEB9B /* InfoPlist.strings */; };
+		10A893A81803C14E001CEB9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A893A71803C14E001CEB9B /* main.m */; };
+		10A893AC1803C14E001CEB9B /* Type_4AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A893AB1803C14E001CEB9B /* Type_4AppDelegate.m */; };
+		10A893AE1803C14E001CEB9B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 10A893AD1803C14E001CEB9B /* Default.png */; };
+		10A893B01803C14E001CEB9B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10A893AF1803C14E001CEB9B /* Default@2x.png */; };
+		10A893B21803C14E001CEB9B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10A893B11803C14E001CEB9B /* Default-568h@2x.png */; };
+		10A893B51803C14E001CEB9B /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10A893B31803C14E001CEB9B /* MainStoryboard_iPhone.storyboard */; };
+		10A893B81803C14E001CEB9B /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10A893B61803C14E001CEB9B /* MainStoryboard_iPad.storyboard */; };
+		10A893BB1803C14E001CEB9B /* Type_4FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A893BA1803C14E001CEB9B /* Type_4FirstViewController.m */; };
+		10A893BD1803C14E001CEB9B /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 10A893BC1803C14E001CEB9B /* first.png */; };
+		10A893BF1803C14E001CEB9B /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10A893BE1803C14E001CEB9B /* first@2x.png */; };
+		10A893C21803C14E001CEB9B /* Type_4SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A893C11803C14E001CEB9B /* Type_4SecondViewController.m */; };
+		10A893C41803C14E001CEB9B /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 10A893C31803C14E001CEB9B /* second.png */; };
+		10A893C61803C14E001CEB9B /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10A893C51803C14E001CEB9B /* second@2x.png */; };
+		10A893CE18041403001CEB9B /* nutrional_tab_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 10A893CD18041403001CEB9B /* nutrional_tab_icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10083D4C1805645A00836152 /* background_bar_inner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background_bar_inner.png; path = Images/background_bar_inner.png; sourceTree = "<group>"; };
+		10083D4D1805645A00836152 /* background_bar_outter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background_bar_outter.png; path = Images/background_bar_outter.png; sourceTree = "<group>"; };
+		104CC97C180572ED00770F36 /* digit_button_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = digit_button_background.png; path = Images/digit_button_background.png; sourceTree = "<group>"; };
+		10A893981803C14E001CEB9B /* Simple Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10A8939B1803C14E001CEB9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		10A8939D1803C14E001CEB9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		10A8939F1803C14E001CEB9B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		10A893A31803C14E001CEB9B /* Simple Converter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple Converter-Info.plist"; sourceTree = "<group>"; };
+		10A893A51803C14E001CEB9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		10A893A71803C14E001CEB9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10A893A91803C14E001CEB9B /* Simple Converter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simple Converter-Prefix.pch"; sourceTree = "<group>"; };
+		10A893AA1803C14E001CEB9B /* Type_4AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Type_4AppDelegate.h; sourceTree = "<group>"; };
+		10A893AB1803C14E001CEB9B /* Type_4AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Type_4AppDelegate.m; sourceTree = "<group>"; };
+		10A893AD1803C14E001CEB9B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		10A893AF1803C14E001CEB9B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		10A893B11803C14E001CEB9B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		10A893B41803C14E001CEB9B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		10A893B71803C14E001CEB9B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		10A893B91803C14E001CEB9B /* Type_4FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Type_4FirstViewController.h; sourceTree = "<group>"; };
+		10A893BA1803C14E001CEB9B /* Type_4FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Type_4FirstViewController.m; sourceTree = "<group>"; };
+		10A893BC1803C14E001CEB9B /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		10A893BE1803C14E001CEB9B /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		10A893C01803C14E001CEB9B /* Type_4SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Type_4SecondViewController.h; sourceTree = "<group>"; };
+		10A893C11803C14E001CEB9B /* Type_4SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Type_4SecondViewController.m; sourceTree = "<group>"; };
+		10A893C31803C14E001CEB9B /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		10A893C51803C14E001CEB9B /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		10A893CD18041403001CEB9B /* nutrional_tab_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nutrional_tab_icon.png; path = Images/nutrional_tab_icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10A893951803C14E001CEB9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A8939C1803C14E001CEB9B /* UIKit.framework in Frameworks */,
+				10A8939E1803C14E001CEB9B /* Foundation.framework in Frameworks */,
+				10A893A01803C14E001CEB9B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10A8938F1803C14D001CEB9B = {
+			isa = PBXGroup;
+			children = (
+				10A893CC18040F47001CEB9B /* Images */,
+				10A893A11803C14E001CEB9B /* Simple Converter */,
+				10A8939A1803C14E001CEB9B /* Frameworks */,
+				10A893991803C14E001CEB9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10A893991803C14E001CEB9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10A893981803C14E001CEB9B /* Simple Converter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10A8939A1803C14E001CEB9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10A8939B1803C14E001CEB9B /* UIKit.framework */,
+				10A8939D1803C14E001CEB9B /* Foundation.framework */,
+				10A8939F1803C14E001CEB9B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10A893A11803C14E001CEB9B /* Simple Converter */ = {
+			isa = PBXGroup;
+			children = (
+				10A893AA1803C14E001CEB9B /* Type_4AppDelegate.h */,
+				10A893AB1803C14E001CEB9B /* Type_4AppDelegate.m */,
+				10A893B31803C14E001CEB9B /* MainStoryboard_iPhone.storyboard */,
+				10A893B61803C14E001CEB9B /* MainStoryboard_iPad.storyboard */,
+				10A893B91803C14E001CEB9B /* Type_4FirstViewController.h */,
+				10A893BA1803C14E001CEB9B /* Type_4FirstViewController.m */,
+				10A893BC1803C14E001CEB9B /* first.png */,
+				10A893BE1803C14E001CEB9B /* first@2x.png */,
+				10A893C01803C14E001CEB9B /* Type_4SecondViewController.h */,
+				10A893C11803C14E001CEB9B /* Type_4SecondViewController.m */,
+				10A893C31803C14E001CEB9B /* second.png */,
+				10A893C51803C14E001CEB9B /* second@2x.png */,
+				10A893A21803C14E001CEB9B /* Supporting Files */,
+			);
+			path = "Simple Converter";
+			sourceTree = "<group>";
+		};
+		10A893A21803C14E001CEB9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10A893A31803C14E001CEB9B /* Simple Converter-Info.plist */,
+				10A893A41803C14E001CEB9B /* InfoPlist.strings */,
+				10A893A71803C14E001CEB9B /* main.m */,
+				10A893A91803C14E001CEB9B /* Simple Converter-Prefix.pch */,
+				10A893AD1803C14E001CEB9B /* Default.png */,
+				10A893AF1803C14E001CEB9B /* Default@2x.png */,
+				10A893B11803C14E001CEB9B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10A893CC18040F47001CEB9B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				104CC97C180572ED00770F36 /* digit_button_background.png */,
+				10083D4C1805645A00836152 /* background_bar_inner.png */,
+				10083D4D1805645A00836152 /* background_bar_outter.png */,
+				10A893CD18041403001CEB9B /* nutrional_tab_icon.png */,
+			);
+			name = Images;
+			path = "Simple Converter";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10A893971803C14E001CEB9B /* Simple Converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10A893C91803C14E001CEB9B /* Build configuration list for PBXNativeTarget "Simple Converter" */;
+			buildPhases = (
+				10A893941803C14E001CEB9B /* Sources */,
+				10A893951803C14E001CEB9B /* Frameworks */,
+				10A893961803C14E001CEB9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simple Converter";
+			productName = "Simple Converter";
+			productReference = 10A893981803C14E001CEB9B /* Simple Converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10A893901803C14D001CEB9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "Type 4";
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = AaronChan;
+			};
+			buildConfigurationList = 10A893931803C14D001CEB9B /* Build configuration list for PBXProject "Simple Converter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 10A8938F1803C14D001CEB9B;
+			productRefGroup = 10A893991803C14E001CEB9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10A893971803C14E001CEB9B /* Simple Converter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10A893961803C14E001CEB9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A893A61803C14E001CEB9B /* InfoPlist.strings in Resources */,
+				10A893AE1803C14E001CEB9B /* Default.png in Resources */,
+				10A893B01803C14E001CEB9B /* Default@2x.png in Resources */,
+				10A893B21803C14E001CEB9B /* Default-568h@2x.png in Resources */,
+				10A893B51803C14E001CEB9B /* MainStoryboard_iPhone.storyboard in Resources */,
+				10A893B81803C14E001CEB9B /* MainStoryboard_iPad.storyboard in Resources */,
+				10A893BD1803C14E001CEB9B /* first.png in Resources */,
+				10A893BF1803C14E001CEB9B /* first@2x.png in Resources */,
+				10A893C41803C14E001CEB9B /* second.png in Resources */,
+				10A893C61803C14E001CEB9B /* second@2x.png in Resources */,
+				10A893CE18041403001CEB9B /* nutrional_tab_icon.png in Resources */,
+				10083D4E1805645A00836152 /* background_bar_inner.png in Resources */,
+				10083D4F1805645A00836152 /* background_bar_outter.png in Resources */,
+				104CC97D180572EE00770F36 /* digit_button_background.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10A893941803C14E001CEB9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A893A81803C14E001CEB9B /* main.m in Sources */,
+				10A893AC1803C14E001CEB9B /* Type_4AppDelegate.m in Sources */,
+				10A893BB1803C14E001CEB9B /* Type_4FirstViewController.m in Sources */,
+				10A893C21803C14E001CEB9B /* Type_4SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10A893A41803C14E001CEB9B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10A893A51803C14E001CEB9B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		10A893B31803C14E001CEB9B /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10A893B41803C14E001CEB9B /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		10A893B61803C14E001CEB9B /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10A893B71803C14E001CEB9B /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10A893C71803C14E001CEB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10A893C81803C14E001CEB9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10A893CA1803C14E001CEB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Converter/Simple Converter-Prefix.pch";
+				INFOPLIST_FILE = "Simple Converter/Simple Converter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		10A893CB1803C14E001CEB9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Converter/Simple Converter-Prefix.pch";
+				INFOPLIST_FILE = "Simple Converter/Simple Converter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10A893931803C14D001CEB9B /* Build configuration list for PBXProject "Simple Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10A893C71803C14E001CEB9B /* Debug */,
+				10A893C81803C14E001CEB9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10A893C91803C14E001CEB9B /* Build configuration list for PBXNativeTarget "Simple Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10A893CA1803C14E001CEB9B /* Debug */,
+				10A893CB1803C14E001CEB9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10A893901803C14D001CEB9B /* Project object */;
+}
